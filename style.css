@@ -34,12 +34,24 @@ header {
 }
 
 .icon-and-name {
+    padding-left: 1em;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
+.triple {
+    height: 100%;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.triple image {
+    height: 40px;
+}
 
 header>p {
     font-size: .75em;
